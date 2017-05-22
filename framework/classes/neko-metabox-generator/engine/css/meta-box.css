@@ -1,0 +1,92 @@
+/**
+ * All Types Meta Box Class CSS
+ *
+ * CSS used for the custom metaboxes and other form items.
+ *
+ * Copyright 2011 Ohad Raz (admin@bainternet.info)
+ */
+
+/* =Common Rules for all fields.
+----------------------------------------------- */
+.form-table .at-lineWrapper{ position:relative; }
+.form-table td.at-field{ border-bottom: 1px solid #DDD; padding: 10px 10px 10px; margin: 0px; font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, sans-serif; position:relative; display: block;}
+
+.form-table td:last-child{ border-bottom:none; }
+
+.at-label { margin: 0 10px 5px 0; padding: 5px 0 0 0; display:block; font-weight:bold;}
+.at-label label{ min-width:100px; display:block;}
+.at-radio-label{ padding-right: 10px; }				
+.at-file-upload-label{ clear: both; margin: 5px 0px 5px 1px; }	
+
+
+/* =Form Fields
+----------------------------------------------- */
+.postbox .at-field input,
+.postbox .at-field textarea { padding: 5px; line-height: 18px; display:inline-block;} 
+.postbox .at-field input.at-radio{ display:inline-block;}
+.postbox .at-field input.at-color{ border: 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin-right: 10px; min-width: 100px; display:inline-block; }
+.at-field input:focus, 
+.at-field textarea:focus { background: #fffff8; }
+#wpcontent select.at-select { height: 30px !important; padding: 5px; display: block; min-width: 200px; }
+.at-field .desc-field { border-left: 1px solid #ddd; color: #444; margin: 5px 0 0 3px !important; font-size: 13px; display: inline-block; border-left: 1px solid #ddd; padding-left: 10px;}
+.at-field .wp_themeSkin table.mceLayout{ border: 1px solid #DFDFDF; }
+#post-body .at-field .wp_themeSkin .mceStatusbar a.mceResize{ top: -25px; } 
+
+/* =Uploaded Images
+----------------------------------------------- */
+.at-images li { margin: 5px 10px 0px 0; float: left; width: 150px; height: 150px; text-align: center; border: 3px solid #ccc; cursor: move; position: relative; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.at-images img { width: 150px; height: 150px; }
+.at-images a { position: absolute; top: -12px; right: -12px; color: #fff;  font-weight: bold; padding: 5px; }
+.at-images .at-delete-file img{ width: 16px; height: 16px; }
+
+/* =Upload Button
+----------------------------------------------- */
+.at-upload-button { float: left; clear: both; margin-top: 10px; }
+.at-add-file { float: left; clear: both; margin-top: 10px; }
+ 
+/* =Time Picker
+----------------------------------------------- */
+.ui-timepicker-div { font-size: 0.9em; }
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; }
+.ui-timepicker-div dl dd { margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+/* =Repater Block
+----------------------------------------------- */
+/* inline */
+.at-inline label{font-size: 12px !important;}
+.at-inline textarea{height: 130px;width: 200px;}
+
+/* code Editor */
+.CodeMirror{
+	background-color: #fff;
+}
+
+.select2-container,
+.select2-drop,
+.select2-search,
+.select2-search input{
+ width: 223px;
+}
+
+.at-textarea{
+	height: 30px;
+	width: 80%  !important;
+	float: left; 
+}
+
+.at-field .wp-picker-container, .wp-picker-container:active{
+	float:left;
+}
+
+.at-repater-block{ position:relative; border-color: #ededed !important; margin: 0 0 10px 0 !important; padding: 5px !important; }
+.at-repater-block{ width:100% !important; max-width: none; }
+ .at-posts-select { width: 40% !important; max-width: none !important;}
+#add-neko_re_header_by_post{ margin:15px 0; cursor: pointer; }
+#remove-neko_re_header_by_post{ position:absolute; right:10px; top:50%; cursor: pointer; transform: translateY(-50%);}
+.at-re-toggle{ position:absolute; right:50px; top:50%; cursor: pointer; transform: translateY(-50%); }
+.at-re-toggle img{ width:18px; }
+.at-repater-block .title{ position:absolute; left:5px; top:50%; cursor: pointer; transform: translateY(-50%); }
+.repeater-table{ background: white !important; }

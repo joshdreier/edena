@@ -1,0 +1,62 @@
+<?php
+class neko_BreadCrumbWalker extends Walker{
+
+	var $tree_type = array( 'post_type', 'taxonomy', 'custom' );
+
+    /**
+     * @see Walker::$db_fields
+     * @var array
+     */
+    var $db_fields = array( 'parent' => 'menu_item_parent', 'id' => 'db_id' );
+
+    /**
+     * delimiter for crumbs
+     * @var string
+     */
+    var $delimiter = '<span class="delimiter">/</span> ';
+
+    /**
+     * @see Walker::start_el()
+     *
+     * @param string $output Passed by reference. Used to append additional content.
+     * @param object $item Menu item data object.
+     * @param int $depth Depth of menu item.
+     * @param int $current_page Menu item ID.
+     * @param object $args
+     */
+    function start_el( &$output, $item, $depth = 0, $args = array(),  $current_object_id = 0 ) {
+
+      //Check if menu item is an ancestor of the current page
+    	$classes = empty( $item->classes ) ? array() : (array) $item->classes;
+    	$current_identifiers = array( 'current-menu-item', 'current-menu-parent', 'current-menu-ancestor' ); 
+    	$ancestor_of_current = array_intersect( $current_identifiers, $classes );     
+
+
+    	if( $ancestor_of_current ){
+    		$title = apply_filters( 'the_title', $item->title, $item->ID );
+
+        //Preceed with delimter for all but the first item.
+    		if( 0 != $depth ) $output .= $this->delimiter;
+
+        //Link tag attributes
+    		$attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
+    		$attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
+    		$attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
+    		$attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
+
+        //Add to the HTML output
+    		if( !is_home() && !is_front_page() && 0 == $depth   ){
+    			$output .= '<a href="'.get_site_url().'">'.esc_html__('Home', 'neko').'</a>'.$this->delimiter; 
+    		}
+
+				// added by me to remove the link on the current page item
+				//echo '<pre>'; print_r( $output ); echo '</pre>';
+    		if ( in_array("current-menu-item", $classes ) ) {
+    			$output .= '<span class="current-page">'.$title.'</span>';
+    		} else {
+    			$output .= '<a'. $attributes .'>'.$title.'</a>';
+    		}	
+    	}
+
+    }
+  }

@@ -1,0 +1,2261 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Edena\n"
+"POT-Creation-Date: 2016-03-08 14:23+0100\n"
+"PO-Revision-Date: 2016-03-08 14:22+0100\n"
+"Last-Translator: Little neko team <contact@little-neko.com>\n"
+"Language-Team: Little neko team <contact@little-neko.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:33
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:35
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archives.php:40
+msgid "Archives by Month:"
+msgstr ""
+
+#: archives.php:45
+msgid "Archives by Subject:"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:48 comments.php:71
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:49 comments.php:72
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:50 comments.php:73
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:92
+msgctxt "comment form title"
+msgid "Comment"
+msgstr ""
+
+#: content-aside.php:64 content-audio.php:75 content-gallery.php:98
+#: content-link.php:87 content-quote.php:60 content-status.php:67
+#: content.php:95
+msgid "Tags:"
+msgstr ""
+
+#: content-aside.php:69 content-audio.php:80 content-audio.php:184
+#: content-gallery.php:103 content-gallery.php:175 content-image.php:105
+#: content-image.php:183 content-link.php:92 content-quote.php:65
+#: content-status.php:72 content-video.php:63 content-video.php:117
+#: content.php:101 content.php:153 framework/neko-tools/neko_tools.php:300
+msgid "Edit"
+msgstr ""
+
+#: content-audio.php:51 content-gallery.php:75 content-image.php:78
+#: content-page.php:50 content-video.php:44 content.php:67
+#: framework/neko-tools/neko_tools.php:964
+msgid "Pages:"
+msgstr ""
+
+#: content-audio.php:163 content-gallery.php:136 content-image.php:146
+#: content-video.php:82 content.php:119 search.php:56
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-none.php:18 no-results.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:24 no-results.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: content-none.php:33 no-results.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:3
+msgid "Configuration"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:8
+msgid ""
+"\n"
+"\t\t\t\tThis section will help you set up your server, php and WordPess "
+"correctly. You 'll find detailed informations on what is required for this "
+"theme to work properly.<br/><strong>Make sure everything is ok in \"Server "
+"configuration check\" before going to the next tab</strong>!!\n"
+"\t\t\t"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:19
+msgid "Server configuration check"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:31
+msgid "WP Memory Limit"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:34
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least <strong>256MB</strong> of "
+"memory limit. Please define memory limit in <strong>wp-config.php</strong> "
+"file. To learn how, see: <a href=\"%s\" target=\"_blank\">Increasing memory "
+"allocated to PHP.</a>"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:47
+msgid "ZipArchive"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:58
+msgid "Max Upload Size"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:75
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:90
+msgid "PHP Time Limit"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:96
+#, php-format
+msgid ""
+"%s - Current time limit is not sufficient, the required time is <strong>300</"
+"strong>.<br />See: <a href=\"%s\" target=\"_blank\">Increasing max execution "
+"to PHP</a>"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:124
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:130
+#, php-format
+msgid ""
+"%s - Recommended Value: %s.<br />Max input vars limitation will truncate "
+"POST data such as menus. See: <a href=\"%s\" target=\"_blank\">Increasing "
+"max input vars limit.</a>"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:145
+msgid "SUHOSIN"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:148
+msgid "More Information"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:148
+msgid "Not installed"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:176
+msgid "Suhosin Post Max Vars"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:180
+#: framework/admin/admin-pages/configuration.php:212
+#, php-format
+msgid ""
+"%s - Recommended Value: %s. Max input vars limitation will truncate POST "
+"data such as menus. See: <a href=\"%s\" target=\"_blank\">Increasing max "
+"input vars limit.</a>"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:208
+msgid "Suhosin Request Max Vars"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:227
+msgid "Suhosin Post Max Value Length"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:232
+#, php-format
+msgid ""
+"%s - Recommended Value: %s.<br />Post Max Value Length limitation may "
+"prohibit the Theme Options data from being saved to your database. See: <a "
+"href=\"%s\" target=\"_blank\">Suhosin Configuration Info</a>."
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:245
+msgid ""
+"Server information not available. Please check your \"php.ini\" "
+"configuration to allow these informations to be displayed here."
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:256
+msgid "Advanced Configuration"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:262
+msgid "WordPress Version"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:267
+msgid "WordPress Multisite"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:268
+msgid "Yes"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:268
+msgid "No"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:272
+msgid "Web server"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:277
+msgid "PHP Version"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:282
+msgid "MySQL Version"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:292
+msgid "DOMDocument"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:293
+msgid ""
+"DOMDocument is not installed on your server, but is required if you need to "
+"use the Fusion Page Builder."
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:298
+msgid "WP Remote Get"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:300
+msgid ""
+"wp_remote_get() failed. Some theme features may not work. Please contact "
+"your hosting provider."
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:306
+msgid "WP Remote Post"
+msgstr ""
+
+#: framework/admin/admin-pages/configuration.php:309
+msgid ""
+"wp_remote_post() failed. Some theme features may not work. Please contact "
+"your hosting provider."
+msgstr ""
+
+#: framework/admin/admin-pages/documentation-support.php:2
+msgid "Documentation"
+msgstr ""
+
+#: framework/admin/admin-pages/documentation-support.php:8
+#, php-format
+msgid ""
+"Your premium Little Neko theme %1$s comes with a premium documentation as "
+"well.<br/> \n"
+"\t\t\t\t\t\tThis doc will help you get started in no time. You'll find "
+"everything you need to know to customize your posts and pages with no coding "
+"backgournd.<br/> \n"
+"\t\t\t\t\t  We have created a set of options and custom addons to help you "
+"build the website you've always desired.<br/><br/> \n"
+"\t\t\t\t\t  %2$s"
+msgstr ""
+
+#: framework/admin/admin-pages/documentation-support.php:26
+#, php-format
+msgid ""
+"We also provide premium support for our beloved users. Feel free to ask our "
+"moderators and community for help.<br/>\n"
+"\t\t\t\t\t\tWe will do our best to assist you with any issues/bugs related "
+"to the use of our themes and templates.<br/>\n"
+"\t\t\t\t\t\tRegister first and ask your question and be sure that our team "
+"will be by your side every step of the way.<br/><br/> \n"
+"\t\t\t\t\t  %1$s"
+msgstr ""
+
+#: framework/admin/admin-pages/install-plugins.php:2
+msgid "Plugins Installation"
+msgstr ""
+
+#: framework/admin/admin-pages/install-plugins.php:8
+#, php-format
+msgid ""
+"<p>\n"
+"\t\t\t\tIn order to get the most our of your %1$s you should install the "
+"following plugins. This will give you access to the following premium "
+"functionalities.\n"
+"\t\t\t</p>\n"
+"\t\t\t<ul>\n"
+"\t\t\t\t<li>Demo content installer</li>\n"
+"\t\t\t\t<li>Skin management ( import \\ export )</li>\n"
+"\t\t\t\t<li>Visual page builder with custom Neko addons</li>\t\t\n"
+"\t\t\t\t<li>Premium Neko Portfolio </li>\n"
+"\t\t\t\t<li>Premium Neko Team </li>\n"
+"\t\t\t\t<li>Premium Neko Pricing table </li>\n"
+"\t\t\t\t<li>Premium Neko Google map</li>\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t<li>Premium Neko slider</li>\n"
+"\t\t\t</ul>"
+msgstr ""
+
+#: framework/admin/admin-pages/install-plugins.php:58
+msgid "Version:"
+msgstr ""
+
+#: framework/admin/admin-pages/install-plugins.php:60
+msgid "Available Version:"
+msgstr ""
+
+#: framework/classes/multiple_thumbs/multi-post-thumbnails.php:77
+#, php-format
+msgid ""
+"The 'label' and 'id' values of the 'args' parameter of '%s::%s()' are "
+"required"
+msgstr ""
+
+#: framework/classes/multiple_thumbs/multi-post-thumbnails.php:159
+#, php-format
+msgid "Set as %3$s"
+msgstr ""
+
+#: framework/classes/multiple_thumbs/multi-post-thumbnails.php:393
+#: framework/classes/multiple_thumbs/multi-post-thumbnails.php:394
+#, php-format
+msgid "Set %s"
+msgstr ""
+
+#: framework/classes/multiple_thumbs/multi-post-thumbnails.php:410
+#, php-format
+msgid "Remove %s"
+msgstr ""
+
+#: framework/classes/neko-metabox-generator/engine/my-meta-box-custom-class.php:421
+#: framework/classes/neko-metabox-generator/engine/my-meta-box-custom-class.php:460
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:581
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:628
+#: framework/walkers/custom_nav_fields.php:321
+msgid "Remove"
+msgstr ""
+
+#: framework/classes/neko-metabox-generator/engine/my-meta-box-custom-class.php:433
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:594
+msgid "Add"
+msgstr ""
+
+#: framework/classes/neko-metabox-generator/engine/my-meta-box-custom-class.php:790
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:950
+msgid "Select a color"
+msgstr ""
+
+#: framework/classes/neko-metabox-generator/engine/my-meta-box-custom-class.php:878
+msgid "Select ..."
+msgstr ""
+
+#: framework/classes/neko-metabox-generator/engine/my-meta-box-custom-class.php:1828
+#: framework/classes/neko-metabox-generator/engine/my-meta-box-custom-class.php:1836
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:249
+msgid "Delete this image"
+msgstr ""
+
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:249
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:886
+#: framework/hooks/neko_actions.php:355 framework/hooks/neko_actions.php:397
+msgid "Delete"
+msgstr ""
+
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:356
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:882
+msgid "Uploaded files"
+msgstr ""
+
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:893
+msgid "Upload new files"
+msgstr ""
+
+#: framework/classes/neko-metabox-tax-generator/engine/Tax-meta-custom-class.php:899
+msgid "Add more files"
+msgstr ""
+
+#: framework/classes/neko-metabox-tax-generator/neko-meta-box-class.php:27
+msgid "Shortcode to copy in your page or post"
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:299
+msgid "Sidebar management"
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:305
+msgid ""
+"Please select the sidebar and its position you would like to display on this "
+"page / post. <br/><strong>Note:</strong> You must first create the sidebar "
+"under Appearance > Sidebars."
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:331
+msgid "Sidebar Name"
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:337
+#: framework/classes/sidebar-generator/sidebar_generator.php:387
+msgid "Blog default"
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:344
+#: inc/customizer/customizer-blogoption.php:88
+msgid "No sidebar"
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:381
+msgid "No position"
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:382
+#: inc/customizer/customizer-blogoption.php:82
+msgid "Left"
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:383
+#: inc/customizer/customizer-blogoption.php:85
+msgid "Right"
+msgstr ""
+
+#: framework/classes/sidebar-generator/sidebar_generator.php:392
+msgid "Sidebar Position"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:62
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:99
+msgid "Blog sidebar"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:112
+msgid "Home content widget bar"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:127
+msgid "Preheader widget bar left"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:137
+msgid "Preheader widget bar right"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:182
+msgid "Footer column "
+msgstr ""
+
+#: framework/hooks/neko_actions.php:197
+msgid "Woocommerce sibebar"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:332
+msgid "Custom Social network informations"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:351 framework/hooks/neko_actions.php:393
+msgid "Network name"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:354 framework/hooks/neko_actions.php:396
+msgid "Please enter the name of your social network."
+msgstr ""
+
+#: framework/hooks/neko_actions.php:360 framework/hooks/neko_actions.php:402
+msgid "Network url"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:363 framework/hooks/neko_actions.php:405
+msgid "Please enter the url of your social network."
+msgstr ""
+
+#: framework/hooks/neko_actions.php:368 framework/hooks/neko_actions.php:410
+msgid "Network icon"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:372 framework/hooks/neko_actions.php:414
+msgid "Please enter the icon of your social network."
+msgstr ""
+
+#: framework/hooks/neko_actions.php:374 framework/hooks/neko_actions.php:416
+msgid "click here to see a list of all font icons available in your neko theme"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:551
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2451
+msgid "Version"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:552
+msgid "Welcome to"
+msgstr ""
+
+#: framework/hooks/neko_actions.php:558
+#, php-format
+msgid ""
+"<strong>Congratulations!</strong> Your premium Little Neko Theme is "
+"correctly installed.<br/>\n"
+"\t\t\t\t\t\tThere are some steps you need to take to get the most out of "
+"%1$s.<br/>\n"
+"\t\t\t\t\t\tPlease navigate through all the sections below and follow "
+"instructions to set up your server and all the needed plugins that comes "
+"with your new theme."
+msgstr ""
+
+#: framework/hooks/neko_filters.php:237
+msgid "RSS URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:238
+msgid "Google Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:239
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:240
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:241
+msgid "Linkedin Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:242
+msgid "Github Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:243
+msgid "Flickr Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:244
+msgid "Dribbble Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:245
+msgid "Tumblr Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:246
+msgid "Reddit Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:247
+msgid "Deviantart Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:248
+msgid "Vimeo Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:249
+msgid "Youtube Profile URL"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:265 framework/hooks/neko_filters.php:296
+msgctxt "button"
+msgid "Read more"
+msgstr ""
+
+#: framework/hooks/neko_filters.php:353
+msgid "ID"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:37
+msgid "Display default header"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:42
+#: framework/metaboxes/metabox_header.php:62
+#: framework/metaboxes/metabox_preloader.php:42
+#: inc/customizer/customizer-blogoption.php:108
+#: inc/customizer/customizer-footeroption.php:98
+#: inc/customizer/customizer-header.php:182
+#: inc/customizer/customizer-header.php:235
+#: inc/customizer/customizer-header.php:257
+#: inc/customizer/customizer-miscellaneousoption.php:102
+#: inc/vc-custom/vc-params/vc-row.php:127
+#: inc/vc-custom/vc-params/vc-row.php:144
+msgid "On"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:43
+#: framework/metaboxes/metabox_header.php:63
+#: framework/metaboxes/metabox_preloader.php:43
+#: inc/customizer/customizer-blogoption.php:111
+#: inc/customizer/customizer-blogoption.php:224
+#: inc/customizer/customizer-footeroption.php:101
+#: inc/customizer/customizer-header.php:185
+#: inc/customizer/customizer-header.php:238
+#: inc/customizer/customizer-header.php:260
+#: inc/customizer/customizer-miscellaneousoption.php:105
+#: inc/vc-custom/vc-params/vc-row.php:126
+#: inc/vc-custom/vc-params/vc-row.php:143
+msgid "Off"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:57
+msgid "Use custom title"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:58
+msgid ""
+"If set on \"Off\" the post title of the page or post will be used in the "
+"header"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:75
+msgid "Custom title"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:76
+msgid "Add a custom title in the post header"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:90
+msgid "Subtitle"
+msgstr ""
+
+#: framework/metaboxes/metabox_header.php:91
+msgid "Add a subtitle below the title"
+msgstr ""
+
+#: framework/metaboxes/metabox_menu_override.php:46
+msgid "Main navigation opacity"
+msgstr ""
+
+#: framework/metaboxes/metabox_menu_override.php:47
+msgid "Adjust main navigation opacity to fit the specific needs of the page"
+msgstr ""
+
+#: framework/metaboxes/metabox_menu_override.php:48
+msgid "Default customizer option"
+msgstr ""
+
+#: framework/metaboxes/metabox_menu_override.php:74
+msgid "Main navigation position"
+msgstr ""
+
+#: framework/metaboxes/metabox_menu_override.php:75
+msgid "Adjust main navigation position to fit the specific needs of the page"
+msgstr ""
+
+#: framework/metaboxes/metabox_menu_override.php:81
+#: inc/vc-custom/vc-params/vc-row.php:81
+msgid "fixed"
+msgstr ""
+
+#: framework/metaboxes/metabox_menu_override.php:82
+msgid "static"
+msgstr ""
+
+#: framework/metaboxes/metabox_preloader.php:37
+msgid "Activate ajax preloader"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:181
+msgid "Older posts"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:186
+msgid "Newer posts"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:195
+msgid "Next"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:196
+#: framework/neko-tools/neko_tools.php:525
+msgid "Previous"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:292
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: framework/neko-tools/neko_tools.php:296
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:307
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:344
+msgid "Posted In"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:345
+msgid "Posted On"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:346
+msgid "By"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:361
+msgid "No Comments"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:363
+msgid " Comments"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:365
+msgid "1 Comment"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:369
+msgid "No comments"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:384
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:405
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:528
+msgid "Next "
+msgstr ""
+
+#: framework/neko-tools/neko_tools.php:913
+msgid "Featured Image "
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:179
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:180
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:181
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:182
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:338
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:184
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:343
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:189
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:348
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:194
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:353
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:199
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:358
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:204
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:363
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:209
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:368
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:214
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:373
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:219
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:378
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:224
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:229
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:234
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:239
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:243
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:244
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3038
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:245
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:400
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2841
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:246
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:247
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:248
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:249
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:250
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+#: framework/tgm-plugin-activation/neko-tgm-plugins.php:251
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:530
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:531
+msgid "Update Required"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:645
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:944
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:944
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:947
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:947
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:1125
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2837
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:1890
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2176
+msgid "Required"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2179
+msgid "Recommended"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2195
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2198
+msgid "External Source"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2201
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2218
+msgid "Not Installed"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2222
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2224
+msgid "Active"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2230
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2233
+msgid "Requires Update"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2236
+msgid "Update recommended"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2244
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2289
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2380
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgid "Installed version:"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2408
+msgid "Available version:"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2431
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2445
+msgid "Plugin"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2446
+msgid "Source"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2447
+msgid "Type"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2452
+msgid "Status"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2504
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2509
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2579
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2612
+msgid "Install"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2618
+msgid "Update"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2621
+msgid "Activate"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2652
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2654
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2690
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2692
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2797
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:2823
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3037
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3371
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3373
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3374
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3378
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3379
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3379
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3385
+msgid "Show Details"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3379
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3385
+msgid "Hide Details"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3380
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3381
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3384
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3385
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3386
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3387
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/tgm-plugin-activation/class-tgm-plugin-activation.php:3447
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: framework/walkers/custom_nav_fields.php:129
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: framework/walkers/custom_nav_fields.php:133
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:157
+msgid "Move up"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:170
+msgid "Move down"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:172
+#: framework/walkers/custom_nav_fields.php:174
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:183
+msgid "URL"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:190
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:196
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:203
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:208
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:214
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:220
+msgid "Description"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:222
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:242
+msgid "Activate Mega menu"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:248
+msgid "Mega menu cols"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:250
+#: inc/customizer/customizer-blogoption.php:56
+#: inc/customizer/customizer-header.php:40
+#: inc/vc-custom/vc-params/vc-row.php:45 inc/vc-custom/vc-params/vc-row.php:62
+msgid "Default"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:276
+msgid "Set as title"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:281
+msgid "Add a widget area"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:283
+msgid "no widget area"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:308
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/walkers/custom_nav_fields.php:322
+msgid "Cancel"
+msgstr ""
+
+#: framework/walkers/neko-breadcrum-walker-class.php:49
+msgid "Home"
+msgstr ""
+
+#: header.php:70
+msgid "loading"
+msgstr ""
+
+#: inc/customizer/customizer-404option.php:26
+#: inc/customizer/customizer-header.php:9
+#: inc/customizer/customizer-miscellaneousoption.php:125
+msgid "select"
+msgstr ""
+
+#: inc/customizer/customizer-404option.php:31
+msgid "No page created yet"
+msgstr ""
+
+#: inc/customizer/customizer-404option.php:38
+msgid "404 error page"
+msgstr ""
+
+#: inc/customizer/customizer-404option.php:39
+msgid "Create a page that will be selected below as your 404 page"
+msgstr ""
+
+#: inc/customizer/customizer-404option.php:55
+msgid "Select a page"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:6
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:22
+msgid "Blog list options"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:37
+msgid ""
+"Here you can set options for the blog list pages (blog page, category, "
+"search, tag, author, attachement and archive)."
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:52
+msgid "Blog layout"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:59
+#: inc/customizer/customizer-blogoption.php:137
+#: inc/widget/neko_about/views/widget-admin.php:50
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:62
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:78
+msgid "Sidebar position"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:104
+msgid "Enable blog header"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:127
+msgid "Blog header size"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:131
+msgid "Small"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:134
+#: inc/widget/neko_about/views/widget-admin.php:49
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:154
+msgid "Default background image"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:169
+msgid "Mask header color"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:185
+msgid "Mask header opacity"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:214
+msgid "Blog Parallax header"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:218
+#: inc/customizer/customizer-footeroption.php:30
+msgid "Fixed"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:221
+#: inc/vc-custom/vc-params/vc-row.php:82
+msgid "Animated"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:241
+msgid "Blog header text"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:257
+msgid "Additional blog options"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:272
+msgid ""
+"The options below enable you to fine tune your blog pages to fit your need."
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:287
+msgid "Activate author sheet on post pages"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:291
+msgid "on"
+msgstr ""
+
+#: inc/customizer/customizer-blogoption.php:294
+msgid "off"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:6
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:23
+msgid "Body background color"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:38
+msgid "Post background color"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:53
+msgid "Body text"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:69
+msgid "Headings"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:86
+msgid "Links"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:103
+msgid "Hover links"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:118
+msgid "Neutral color"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:133
+msgid "Accent color"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:149
+msgid "Buttons"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:164
+msgid "Button background"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:181
+msgid "Button text"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:197
+msgid "Hover button background"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:214
+msgid "Hover button text"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:230
+msgid "Header and main menu"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:245
+msgid "Header background color"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:261
+msgid "Top level menu background color (if applicable)"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:278
+#: inc/customizer/customizer-coloroption.php:341
+msgid "Top level menu text color"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:294
+msgid "Hover top level menu background color (if applicable)"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:310
+#: inc/customizer/customizer-coloroption.php:356
+msgid "Hover top level menu text color"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:325
+msgid "Transparent header"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:374
+#: inc/customizer/customizer-footeroption.php:6
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:389
+msgid "Footer background"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:405
+msgid "Footer text"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:420
+msgid "Footer secondary color"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:437
+msgid "Footer link"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:454
+msgid "Footer hover link"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:470
+msgid "Copyright section"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:484
+msgid "Copyright section background"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:501
+msgid "Copyright section text"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:518
+msgid "Copyright section link"
+msgstr ""
+
+#: inc/customizer/customizer-coloroption.php:535
+msgid "Copyright section hover link"
+msgstr ""
+
+#: inc/customizer/customizer-customoption.php:6
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer/customizer-customoption.php:7
+msgid "Will overidde everything (customizations or default stylesheet"
+msgstr ""
+
+#: inc/customizer/customizer-customoption.php:22
+msgid "Put your custom CSS here"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:22
+msgid "Select the footer type here"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:26
+msgid "Static"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:34
+msgid "No Footer"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:50
+msgid "Footer layout"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:54
+msgid "1 column"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:58
+msgid "3 columns"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:62
+msgid "4 columns"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:66
+msgid "2/3 - 1/3"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:70
+msgid "1/3 - 2/3"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:74
+msgid "1/2 - 1/2"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:94
+msgid "Enable copyright"
+msgstr ""
+
+#: inc/customizer/customizer-footeroption.php:118
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:19
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:37
+msgid "Skin"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:41
+msgid "Centered logo"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:42
+#: inc/vc-custom/vc-params/vc-tab-accordeon.php:25
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:43
+#: inc/vc-custom/vc-params/vc-tab-accordeon.php:26
+msgid "Modern"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:44
+#: inc/customizer/customizer-miscellaneousoption.php:44
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:53
+msgid "26"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:61
+msgid "Padding"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:76
+msgid "Positioning"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:78
+msgid "Fixed top"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:78
+msgid "Static top"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:94
+msgid "Opacity"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:124
+msgid "Sub menu color"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:128
+msgid "Light"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:131
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:147
+msgid "Social header"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:162
+msgid ""
+"This section allow you to set a socialbar in the header of your neko theme."
+msgstr ""
+
+#: inc/customizer/customizer-header.php:178
+msgid "Display social bar"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:202 inc/widget/neko_contact.php:142
+msgid "Select a user"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:217
+msgid "Pre header"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:231
+msgid "Display preheader"
+msgstr ""
+
+#: inc/customizer/customizer-header.php:253
+msgid "Autohide preheader on scroll"
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:9
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:28
+msgid "Logo image"
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:43
+msgid "Logo image for transparent header"
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:52
+msgid "148"
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:60
+msgid "Logo width in pixels"
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:70
+msgid "43"
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:78
+msgid "Logo height in pixels"
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:96
+msgid "Logo image (Retina Version @2x) "
+msgstr ""
+
+#: inc/customizer/customizer-logooption.php:111
+msgid "Logo image for transparent header (Retina Version @2x)"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:9
+msgid "Miscellaneous"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:25
+msgid "Body layouy options"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:40
+msgid "Layout style"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:47
+msgid "Full width"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:50
+msgid "Side menu"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:66
+msgid "Background image for boxed layout"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:83
+msgid "Preloader options"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:98
+msgid "Show preloader"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:121
+msgid "Select Preloader"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:128
+msgid "Circle"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:131
+msgid "Signal"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:134
+msgid "Dots"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:137
+msgid "Underline"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:154
+msgid "Google analytics"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:169
+msgid "Google analytics code"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:187
+msgid "Featured images"
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:203
+msgid ""
+"Here you can set the number of featured images avalaible for posts within "
+"your Neko theme."
+msgstr ""
+
+#: inc/customizer/customizer-miscellaneousoption.php:219
+msgid "Number of featured images"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:90
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:107
+msgid ""
+"Here you can set the font for your Neko theme. You have control over the "
+"family, the weight and the size for headings and body"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:122
+msgid "Headings font family"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:138
+msgid "Sections title"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:153
+#: inc/customizer/customizer-typographyoption.php:230
+msgid "Font size"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:168
+#: inc/customizer/customizer-typographyoption.php:245
+msgid "Letter spacing"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:183
+#: inc/customizer/customizer-typographyoption.php:260
+msgid "Upper case"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:198
+#: inc/customizer/customizer-typographyoption.php:276
+#: inc/customizer/customizer-typographyoption.php:358
+msgid "Font weight"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:215
+msgid "Title 2 settings"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:292
+msgid "Body settings"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:307
+msgid "Font family"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:324
+msgid "Font size (default 18px)"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:333
+msgid "1.5"
+msgstr ""
+
+#: inc/customizer/customizer-typographyoption.php:341
+msgid "Line height"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:42
+msgid "Row stretch"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:46
+msgid "Stretch row and content"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:47
+msgid "Stretch row and content without spaces"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:49
+msgid ""
+"Select stretching options for row and content. Stretched row overlay sidebar "
+"and may not work if parent container has overflow: hidden css property."
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:59
+msgid "Section type"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:63
+msgid "Parallax"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:64
+msgid "Video"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:65
+msgid "Equal height"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:66
+msgid "Full screen"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:68
+msgid "Set the type of section you want to create"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:78
+msgid "Parallax effect"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:84
+msgid "Set the style of the paralax effect"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:95
+msgid "Youtube video id"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:97
+msgid "Add the youtube id of the video you want to display as background"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:107
+msgid "muted video"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:113
+msgid "If set on 'On' the background video will be muted"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:123
+msgid "loop video"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:129
+msgid "If set on 'On' the background video will loop indefinitely"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:140
+msgid "Mask activation"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:147
+msgid "Activate mask/overlay"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:158
+msgid "Mask color"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-row.php:160
+msgid "Configure the color of the overlay"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-tab-accordeon.php:22
+msgid "Style"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-tab-accordeon.php:27
+msgid "Flat"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-tab-accordeon.php:28
+msgid "Outline"
+msgstr ""
+
+#: inc/vc-custom/vc-params/vc-tab-accordeon.php:29
+msgid "Theme style"
+msgstr ""
+
+#: inc/widget/neko_about/neko_about.php:65
+#: inc/widget/neko_about/views/widget-admin.php:13
+msgid "Select an Image"
+msgstr ""
+
+#: inc/widget/neko_about/neko_about.php:66
+msgid "Insert Into Widget"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:24
+msgid "Title"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:28
+msgid "About text"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:37
+msgid "Size"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:44
+msgid "Full Size"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:45
+msgid "Custom Large"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:46
+msgid "Custom Medium"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:47
+msgid "Custom Small"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:48
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:67
+msgid "Custom"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:82
+msgid "Width"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:85
+msgid "Height"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:91
+msgid "Align"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:93
+msgid "none"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:94
+msgid "left"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:95
+msgid "center"
+msgstr ""
+
+#: inc/widget/neko_about/views/widget-admin.php:96
+msgid "right"
+msgstr ""
+
+#: inc/widget/neko_contact.php:145
+msgid ""
+"Select user from which social network informations and email will be used"
+msgstr ""
+
+#: inc/widget/neko_contact.php:147
+msgid "select a user"
+msgstr ""
+
+#: inc/widget/neko_contact.php:157
+msgid "Display user email"
+msgstr ""
+
+#: inc/widget/neko_contact.php:160
+msgid "Icons Style"
+msgstr ""
+
+#: inc/widget/neko_tabs.php:58
+msgid "Popular"
+msgstr ""
+
+#: inc/widget/neko_tabs.php:63
+msgid "Recents"
+msgstr ""
+
+#: inc/widget/neko_tabs.php:67
+msgid "Comments"
+msgstr ""
+
+#: inc/widget/neko_tabs.php:97
+msgid "no popular post for now"
+msgstr ""
+
+#: inc/widget/neko_tabs.php:128
+msgid "no recent post for now"
+msgstr ""
+
+#: inc/widget/neko_tabs.php:154
+msgid "no comment for now"
+msgstr ""
+
+#: no-results.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: page-header.php:47
+#, php-format
+msgid "Category %s"
+msgstr ""
+
+#: page-header.php:51
+#, php-format
+msgid "Tag Archives %s"
+msgstr ""
+
+#: page-header.php:60
+#, php-format
+msgid "Author Archives %s"
+msgstr ""
+
+#: page-header.php:71
+#, php-format
+msgid "Daily Archives %s"
+msgstr ""
+
+#: page-header.php:75
+#, php-format
+msgid "Monthly Archives %s"
+msgstr ""
+
+#: page-header.php:79
+#, php-format
+msgid "Yearly Archives %s"
+msgstr ""
+
+#: page-header.php:83
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: page-header.php:159
+msgid "shop"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:14
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/hooks/filters.php:23
+msgid "Start shopping"
+msgstr ""
+
+#: woocommerce/hooks/filters.php:49
+msgid "View your shopping cart"
+msgstr ""
+
+#: woocommerce/neko-template/header-cart-content.php:58
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/neko-template/header-cart-content.php:71
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/neko-template/header-cart-content.php:80
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/neko-template/header-cart-content.php:86
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/neko-template/header-cart-content.php:87
+msgid "Checkout"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Edena"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.little-neko.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Edena, proudly coded by Little Neko."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Little Neko"
+msgstr ""

@@ -1,0 +1,450 @@
+.postbox img{ max-width: 100%; }
+.neko-metabox-label{ width:110px;display:block; float:left;line-height: 28px; }
+.neko-metabox-select{ width:180px; }
+
+.customize-control-background img, 
+.customize-control-header img, 
+.customize-control-image img, 
+.customize-control-upload img{
+	width:auto !important;
+}
+#customize-controls img {
+	height: auto;
+}
+
+/** Extra user profile social networks **/
+.custom-network-wrapper{
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom:10px;
+}
+
+.custom-network-wrapper th{
+	padding-top: 0;
+}
+
+.custom-network-wrapper td{
+	padding-top: 0;
+}
+
+.custom-network-wrapper tr:last-child td{
+	padding-bottom: 0;
+}
+
+#add-custom-network{
+	text-align: right;
+	margin: 0 0 30px 0;
+}
+
+.custom-network-wrapper .td-relative{
+	position: relative;
+}
+
+.custom-network-wrapper .delete-bloc{
+	position: absolute;
+	top: -39px;
+	right: -13px;
+}
+
+@media(min-width:783px){
+	.custom-network-wrapper .delete-bloc{
+		top: -20px;
+	}
+}
+
+
+/* custom metabox customization */
+.at-inline .at-text{display: inline-block; width:auto !important;}
+
+.at-textarea{
+	height: 30px;
+	width: 80%  !important;
+	float: left; 
+}
+
+.at-field .wp-picker-container,.at-field .wp-picker-container:active{
+	float:left;
+}
+
+.at-repater-block{ position:relative; border-color: #ededed !important; margin: 0 0 10px 0 !important; padding: 5px !important; }
+.at-repater-block{ width:100% !important; max-width: none; }
+.at-posts-select { width: 40% !important; max-width: none !important;}
+
+.at-repeat > img { 
+	margin:15px 0; 
+	cursor: pointer; 
+}
+.add-new-item {
+	padding: 4px 8px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #f7f7f7;
+	text-shadow: none;
+	font-weight: 600;
+	font-size: 13px;
+	margin-top: 10px;
+	display: inline-block;
+	font-family: "Open Sans",sans-serif;
+}
+
+.add-new-item:hover {
+	border-color: #008EC2;
+	background: #00a0d2;
+	color: #fff;
+	cursor:pointer;
+}
+
+.trash-item {
+	color:#a00;
+	line-height: 28px;
+	font-size: 13px;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-family: "Open Sans",sans-serif;
+}
+
+.trash-item:hover {
+	color:#f00;
+	cursor:pointer;
+}
+
+.trash-item-bottom {
+	position: absolute;
+	right: 10px;
+}
+
+
+.re-control{
+	position:absolute; 
+	top:10px; 
+	cursor: pointer; 
+	padding:0;
+/*	-webkit-transform: translateY(-50%); 
+	-ms-transform: translateY(-50%); 
+	transform: translateY(-50%);*/
+}
+
+.re-control:nth-of-type(1){
+	right:10px; 
+}
+.re-control:nth-of-type(2) {
+	right:70px;
+} 
+.re-control:nth-of-type(3){
+	right: 70px;
+}
+
+/* tmp fix for portfolio with re-order button */
+#neko_portfolio_re_marker .re-control:nth-of-type(2) {
+	right:50px;
+} 
+#neko_portfolio_re_marker .re-control:nth-of-type(3) {
+	right:110px;
+} 
+/* end tmp fix for portfolio with re-order button */
+
+.at-re-toggle img{ width:18px; }
+.at-repater-block .title{ position:absolute; left:5px; top:50%; cursor: pointer; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.repeater-table{ background: white !important; }
+
+.at-field .select2-container{
+	display: inline-block  !important;
+}
+/* / custom metabox customization */
+
+
+/* VC admin custom style */
+
+.wpb_element_wrapper .textarea_html span{
+	color: #000 !important;
+}
+
+/* / VC admin custom style */
+
+
+/* Welcom theme page*/
+
+.neko-admin-system {
+	background: #FFF;
+	padding: 50px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	margin-top: 25px;
+}
+
+.neko-admin-system h1{
+	padding: 0;
+	color: #32373c;
+	line-height: 1.2em;
+	font-size: 2.8em;
+	font-weight: 400;
+}
+
+.wp-core-ui .neko-admin-system .button-primary,
+.wp-core-ui .neko-admin-system .button-secondary {
+	padding: 7px 12px;
+	font-size: 13px;
+	line-height: 1;
+	text-shadow: none;
+	border: none;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	border-radius: 0;
+}
+
+.wp-core-ui .neko-admin-system .button-secondary{
+	border: 1px solid #ccc;
+}
+
+.neko-admin-system.about-wrap{
+	max-width: none;
+	margin: 10px 20px 0 2px;
+}
+
+.neko-admin-system.about-wrap h1{
+	margin-top: 0;
+}
+
+.neko-admin-system.about-wrap .wp-badge{
+	position: static;
+	float:left;
+	margin-top:0;
+	margin-right: 50px;
+	background-image: url('../img/neko-logo.png');
+	background-position: center;
+	background-color: #e4e4e4;
+	padding-top: 135px;
+	width: 165px;
+}
+.neko-admin-system.about-wrap .wp-badge span{
+	color: #555;
+
+}
+
+.neko-admin-system p,
+.neko-admin-system ul{
+	margin:0;
+	color: #777;
+	font-weight: 400;
+	font-size: 19px;
+	margin-bottom:15px;
+}
+
+
+.neko-admin-system .neko-welcome-message{
+	line-height: 1.6em;
+	min-height: 60px;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+.neko-admin-system .welcome-content{
+	margin-top:50px;
+}
+
+.neko-admin-system table{
+	margin-top: 40px;
+}
+
+.neko-admin-system table tbody tr:nth-child(even) {
+	background: #ededed;
+}
+.neko-admin-system table tbody tr:nth-child(odd) {
+	background: #fff;
+}
+
+.neko-admin-system table tbody tr:hover{
+	background-color: #e4e4e4;
+}
+
+.neko-admin-system table td{
+	vertical-align: middle;
+	text-align : left;
+	border-bottom: 1px solid #ededed;
+}
+
+
+.neko-admin-system table td.result{
+	text-align : center;
+	width:40px;
+}
+
+.neko-admin-system ul{
+	font-size: 13px;
+}
+
+.neko-admin-system ul li{
+	display:inline;
+}
+
+.neko-admin-system ul li:not(:last-child):after{
+	content:'|';
+	margin: 0 10px;
+}
+
+@media(max-width:1113px){
+
+	.neko-admin-system h2.nav-tab-wrapper, 
+	.neko-admin-system h1.nav-tab-wrapper, 
+	.neko-admin-system h3.nav-tab-wrapper{
+		padding: 9px 0 0 0;
+	}
+
+	.neko-admin-system .nav-tab {
+		width: 100%;
+		margin: 0;
+		box-sizing: border-box;
+	}
+}
+
+
+.neko-admin-system .nav-tab-active,
+.neko-admin-system .nav-tab-active:focus,
+.neko-admin-system .nav-tab-active:focus:active,
+.neko-admin-system .nav-tab-active:hover {
+	background:white;
+	border-bottom-color:white; 
+}
+.neko-admin-system .nav-tab-wrapper .nav-tab:first-child {
+	margin-left:0; 
+}
+.neko-admin-system .neko-tab-content {
+	padding:25px;
+	border:1px solid #ccc;
+	border-top:none;
+}
+
+.neko-admin-system .theme{
+	min-width:100%;
+}
+
+.neko-admin-system .theme:hover .theme-screenshot img{
+	opacity:1 !important;
+}
+
+@media(min-width:992px){
+	.neko-admin-system .theme {
+		margin-top:3%;
+		margin-bottom:0;
+		min-width: 0;
+	}
+
+}
+
+.neko-admin-system h2{
+	text-align:left;
+}
+
+.neko-admin-system .theme-name {
+	line-height:18px;
+	text-align:left;
+}
+
+.neko-admin-system .theme-actions{
+	opacity: 1!important;
+	display:block!important;
+	padding: 9px 10px 0!important;
+}
+
+
+.neko-admin-system  .plugin-required{
+	background-color: #dc3232;
+	color:white;
+	font-weight:bold;
+	position: absolute;
+	left:0;
+	top:20px;
+	min-width:150px;
+	z-index:9999;
+	padding:5px;
+	text-align: center;
+}
+
+.neko-admin-system .neko-plugin-info, 
+.neko-admin-system .neko-theme-info{
+	position: absolute;
+	top: 70%;
+	left: 0;
+	right:0;
+	background-color: white;
+	padding:10px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.neko-admin-system td[data-export-label]{
+	width:400px;
+}
+
+.neko-admin-system mark{
+	background-color: transparent;
+}
+
+.neko-admin-system .error{
+	color:#dc3232;
+}
+
+.neko-admin-system .success{
+	color:#46b450;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+
+.neko-admin-system label {
+	display:block;
+	margin-bottom: 10px;
+}
+
+.neko-admin-system .frm-group{
+	float: left;
+	width: 100%;
+	padding: 0 10px 0 0;
+	box-sizing: border-box;
+}
+
+@media(min-width:992px){
+	.neko-admin-system .frm-group{
+		width: 33.333%;
+	}		
+}
+
+.neko-admin-system input {
+	padding: 10px 15px;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+
+.neko-admin-system .registered_theme_wrp .theme-screenshot:after{
+	display:none;
+}
+
+.neko-admin-system .registered_theme_wrp .theme-screenshot img{
+	position: static;
+}
+
+
+
+
