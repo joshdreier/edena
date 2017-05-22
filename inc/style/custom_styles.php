@@ -208,8 +208,6 @@ function neko_get_custom_styles($switcherArray = null) {
 		.header-pusher{display:block;height:'.$header_height.'px;}
 
 
-		.nk-header-scrolled{ padding-top:'.$header_height.'px; }
-
 	}';
 
 
